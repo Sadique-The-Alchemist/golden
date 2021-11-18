@@ -1,3 +1,10 @@
+<div class="h-14 border-b-2 flex fixed w-full bg-white border-purple-300 z-50">
+<header class="flex items-center container mx-20 max-w-full md:w-11/12 2xl:w-6/12">
+<div class="flex w-2/5 justify-start">
+<input type="search" placeholder="Search" class="h-7 bg-gray-50 shadow-sm border-gray-300 focus:ring-gray-300 focus:ring-opacity-50 focus:border-gray-400 px-0.5 rounded-sm">
+ </div>
+</header>
+</div>
 <main class="container">
   <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
   <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
